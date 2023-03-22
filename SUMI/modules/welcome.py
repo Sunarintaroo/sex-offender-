@@ -62,12 +62,12 @@ VALID_WELCOME_FORMATTERS = [
 ]
 
 
-SUMI_RESP = "https://te.legra.ph/file/918c725fedd1dc7546629.jpg"
-SUMI_DIS_WEL = "https://te.legra.ph/file/5dac11bee50894b3bf0d3.jpg"
-SUMI_OWNER_WEL_IMG = "https://telegra.ph/file/e2f680615fc493863e6fa.jpg"
-SUMI_WELCOME = "https://telegra.ph/file/1888c5b6fd5e39bccd991.jpg"
-NETWORK_USERNAME = "Infamous_Hydra"
-NETWORK_NAME = "㊋ Infamous • Hydra"
+SUMI_RESP = "https://te.legra.ph/file/e5392250e425378ebc54e.jpg"
+SUMI_DIS_WEL = "https://te.legra.ph/file/a7f1f85cbfab7eb11bcde.jpg"
+SUMI_OWNER_WEL_IMG = "https://te.legra.ph/file/a7f1f85cbfab7eb11bcde.jpg"
+SUMI_WELCOME = "https://te.legra.ph/file/35f249da53d2baa0113c5.jpg"
+NETWORK_USERNAME = "SurveyCorpsXteam"
+NETWORK_NAME = "『Tʜᴇ Sᴜʀᴠᴇʏ Cᴏʀᴘs』"
 
 ENUM_FUNC_MAP = {
     sql.Types.TEXT.value: dispatcher.bot.send_message,
@@ -229,7 +229,7 @@ def new_member(update: Update, context: CallbackContext):
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_photo(
                     SUMI_DIS_WEL,
-                    caption="Whoa! A Dragon disaster just joined! Stay Alert!",
+                    caption="Whoa! A Destroyer just joined! Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -271,11 +271,11 @@ def new_member(update: Update, context: CallbackContext):
                         [
                             [
                                 InlineKeyboardButton(
-                                    text="Support", url=f"https://t.me/hydraXsupport"
+                                    text="Support", url=f"https://t.me/TSC_BotsSupport"
                                 ),
                                 InlineKeyboardButton(
                                     text="🐉 Network",
-                                    url="https://t.me/Infamous_Hydra",
+                                    url="https://t.me/SurveyCorpsXteam",
                                 ),
                             ],
                             [
