@@ -312,8 +312,8 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-            video="https://telegra.ph/file/12a37c991d8cb8dd7612b.mp4",
-            caption="---------------\nMoshi Moshi\nKira Speaking!\nI Am Alive and working perfectly fine\nMy Master - 🄺🄰🅁🄼🄰\n---------------",
+            video="https://te.legra.ph/file/c6105e87c2a986f412299.mp4",
+            caption="---------------\nMoshi Moshi\nHizuru Speaking!\nI Am Alive and working perfectly fine\nMy Master - ERWIN\n---------------",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
