@@ -93,7 +93,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕️ Add Hizuru to your group ➕️",
-            url="https://t.me/@HIZURUXMINAKATABOT?startgroup=true",
+            url="https://t.me/HIZURUXMINAKATABOT?startgroup=true",
         ),
     ],
     [
