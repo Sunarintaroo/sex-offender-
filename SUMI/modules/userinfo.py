@@ -47,7 +47,7 @@ from SUMI.modules.redis.afk_redis import afk_reason, is_user_afk
 from SUMI.modules.sql.global_bans_sql import is_user_gbanned
 from SUMI.modules.sql.users_sql import get_user_num_chats
 
-SUMI_STATS_PIC = "https://telegra.ph/file/bffb235dce83578a45a81.jpg"
+SUMI_STATS_PIC = "https://te.legra.ph/file/e5392250e425378ebc54e.jpg"
 
 
 def no_by_per(totalhp, percentage):
@@ -239,8 +239,8 @@ def info(update: Update, context: CallbackContext):
     chat = update.effective_chat
     buttons = [
         [
-            InlineKeyboardButton(text="Health", url="https://t.me/updatesxd/4"),
-            InlineKeyboardButton(text="Disasters", url="https://t.me/updatesxd/5"),
+            InlineKeyboardButton(text="Health", url="https://t.me/updatep1/3"),
+            InlineKeyboardButton(text="Disasters", url="https://t.me/updatep1/4"),
         ],
     ]
     user_id = extract_user(update.effective_message, args)
@@ -492,7 +492,7 @@ def stats(update, context):
 
 
 def stats1(update: Update, context: CallbackContext):
-    stats = "🌐 <b>⌈ Current KiRa Stats ⌋</b>\n" + "\n".join(
+    stats = "🌐 <b>⌈ Current Hizuru Stats ⌋</b>\n" + "\n".join(
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
