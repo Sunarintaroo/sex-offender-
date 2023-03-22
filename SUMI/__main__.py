@@ -154,18 +154,18 @@ Main commands available :
 For all command use / or !
 """
 
-SUMI_PIC = "https://telegra.ph/file/842fb1be4be5c02646da0.jpg"
+SUMI_PIC = "https://te.legra.ph/file/45ff2e9d5976825997360.jpg"
 
 SUMI_N_IMG = (
-    "https://telegra.ph/file/842fb1be4be5c02646da0.jpg",
-    "https://telegra.ph/file/842fb1be4be5c02646da0.jpg",
+    "https://te.legra.ph/file/984a7f0d7501decf2df92.jpg",
+    "https://te.legra.ph/file/984a7f0d7501decf2df92.jpg",
 )
 
-SUMI_VID = "https://telegra.ph/file/842fb1be4be5c02646da0.jpg"
+SUMI_VID = "https://te.legra.ph/file/e5392250e425378ebc54e.jpg"
 
-PM_PHOTO = "https://telegra.ph/file/06c5e238508e416c20f98.jpg"
+PM_PHOTO = "https://te.legra.ph/file/1e85243b3858bb7ba05e6.jpg"
 
-SUMI_DISPACHER_PIC = "https://telegra.ph/file/842fb1be4be5c02646da0.jpg"
+SUMI_DISPACHER_PIC = "https://te.legra.ph/file/35f249da53d2baa0113c5.jpg"
 
 DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You tell me your honest review about the bot"""
 
@@ -318,8 +318,8 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/hydraXsupport"),
-                        InlineKeyboardButton(text="Updates", url="t.me/Hydra_Updates"),
+                        InlineKeyboardButton(text="Support", url="t.me/TSC_BotsSupport"),
+                        InlineKeyboardButton(text="Updates", url="t.me/TSC_BotsSupport"),
                     ]
                 ]
             ),
@@ -464,8 +464,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/hydraXsupport"),
-                        InlineKeyboardButton(text="Updates", url="t.me/Hydra_Updates"),
+                        InlineKeyboardButton(text="Support", url="t.me/TSC_BotsSupport"),
+                        InlineKeyboardButton(text="Updates", url="t.me/TSC_BotsSupport"),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="sumi_")],
                 ]
@@ -590,7 +590,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text=" Click here",
-                            url="https://t.me/Kira_HyperxBot?start=help",
+                            url="https://t.me/HIZURUXMINAKATABOT?start=help",
                         )
                     ]
                 ]
