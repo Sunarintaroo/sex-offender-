@@ -80,12 +80,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {},*
-*I'm Hizuru, I'm Goddess Of The New World 
-And a Powerful Group Management Bot.*
+*Hᴇʟʟᴏ {},*
+*I'ᴍ Hɪᴢᴜʀᴜ, I'ᴍ Gᴏᴅᴅᴇss Oғ Tʜᴇ Nᴇᴡ Wᴏʀʟᴅ 
+Aɴᴅ ᴀ Pᴏᴡᴇʀғᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
 
-❍ *Owner - ERWIN*
-❍ *Uptime* - {}
+❍ *Oᴡɴᴇʀ - ERWIN*
+❍ *Uᴘᴛɪᴍᴇ* - {}
 **ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ.**
 """
 
@@ -126,7 +126,7 @@ ABOUT2 = """
 
 REPO_TXT = f"""
 *‣ Owner:*
-• [Ishikki Akabane](t.me/ishikki_akabane)
+• [Kaneki](t.me/King_of_Ghoul)
 \n*‣ Note:*
 • If You Want This Bot's Repo You Can Get It From The Button Below.
 • Report Any Kind Of Bugs At [Support](t.me/Suppporttxd)
