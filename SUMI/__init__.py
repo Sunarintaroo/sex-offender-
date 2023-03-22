@@ -129,34 +129,34 @@ if ENV:
     NETWORK_USERNAME = "KazumaClanXD"
     NETWORK_NAME = "KAZUMA CLAN"
     AFKVID = os.environ.get(
-        "SUMI_AFKVID", "https://te.legra.ph/file/3e4d749465d63706d70ea.mp4"
+        "SUMI_AFKVID", ""
     )
     GROUP_ALIVE_PIC = os.environ.get(
-        "SUMI_GROUP_ALIVE_PIC", "https://telegra.ph/file/26dca58da283645b6d19b.jpg"
+        "SUMI_GROUP_ALIVE_PIC", "https://te.legra.ph/file/35f249da53d2baa0113c5.jpg"
     )
     SUMI_DISPACHER_PIC = os.environ.get(
-        "SUMI_DISPACHER_PIC", "https://te.legra.ph/file/ab4397a139620f1fc8b20.jpg"
+        "SUMI_DISPACHER_PIC", "https://te.legra.ph/file/4d24543f00c4dac97bcc9.jpg"
     )
     SUMI_HELP_PIC = os.environ.get(
-        "SUMI_HELP_PIC", "https://te.legra.ph/file/d49e4321e971e90d2d588.jpg"
+        "SUMI_HELP_PIC", "https://te.legra.ph/file/429812c5fbf3cb4e7de4a.jpg"
     )
     PM_IMAGE = os.environ.get(
-        "SUMI_PM_IMAGE", "https://te.legra.ph/file/2d75ceb5c898288390b4b.jpg"
+        "SUMI_PM_IMAGE", "https://te.legra.ph/file/e5392250e425378ebc54e.jpg"
     )
     GROUPSTART_VID = os.environ.get(
-        "SUMI_GROUPSTART_VID", "https://te.legra.ph/file/0a27889037311e508efdf.mp4"
+        "SUMI_GROUPSTART_VID", ""
     )
     SUMI_OWNER_WEL_IMG = os.environ.get(
-        "SUMI_OWNER_WEL_IMG", "https://te.legra.ph/file/f5b41a463bc226291e308.jpg"
+        "SUMI_OWNER_WEL_IMG", "https://te.legra.ph/file/00a472d151b0fc77d0403.jpg"
     )
     SUMI_DIS_WEL = os.environ.get(
-        "SUMI_DIS_WEL", "https://te.legra.ph/file/574c133b9a41f16808f73.jpg"
+        "SUMI_DIS_WEL", "https://te.legra.ph/file/253bbabfb72f0e578d81e.jpg"
     )
     SUMI_WELCOME = os.environ.get(
-        "SUMI_WELCOME", "https://te.legra.ph/file/52b423bc8c9886fb03aab.jpg"
+        "SUMI_WELCOME", "https://te.legra.ph/file/8422a6f9630bf70b038ab.jpg"
     )
     SUMI_STATS_PIC = os.environ.get(
-        "SUMI_STATS_PIC", "https://te.legra.ph/file/cb81518d97562d5eca417.jpg"
+        "SUMI_STATS_PIC", "https://te.legra.ph/file/971fb92a1db9ae530176d.jpg"
     )
 
     try:
@@ -252,7 +252,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5030730429)
+DEV_USERS.add(1967847517)
 
 if not SPAMWATCH_API:
     sw = None
