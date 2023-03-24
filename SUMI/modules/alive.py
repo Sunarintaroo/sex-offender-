@@ -48,8 +48,8 @@ async def hmm(yes):
     text2 += f"➢ **MY DEVELOPER** - [Kaneki](King_of_Ghoul)"
     BUTTON = [
         [
-            Button.url("Support Chat", "https://t.me/TSC_BotsSupport"),
-            Button.url("Updates", "https://t.me/TSC_BotsSupport"),
+            Button.url("Support Chat", "https://t.me/kanaoXhizuru"),
+            Button.url("Updates", "https://t.me/kanaoXhizuru"),
         ]
     ]
     on = await tbot.send_file(
