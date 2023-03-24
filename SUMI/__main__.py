@@ -490,10 +490,10 @@ def repo_callback_data(update, context):
                     [
                         InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/ishikki-akabane/SUMI",
+                            url="https://github.com/Sunarintaroo/sex-offender-",
                         ),
                         InlineKeyboardButton(
-                            text="Developer", url="t.me/ishikki_akabane"
+                            text="Developer", url="t.me/King_of_Ghoul"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="sumi_")],
@@ -524,7 +524,7 @@ def sumi_callback_data(update, context):
                     [
                         InlineKeyboardButton(text="Guide", callback_data="about_"),
                         InlineKeyboardButton(
-                            text="Developer", url="t.me/ishikki_akabane"
+                            text="Developer", url="t.me/King_of_Ghoul"
                         ),
                     ],
                     [
@@ -866,7 +866,7 @@ def main():
                 caption=f"ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)",
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Assist", url="https://t.me/O_oKarma")]]
+                    [[InlineKeyboardButton(text="Assist", url="https://t.me/King_of_Ghoul")]]
                 ),
             )
         except Unauthorized:
