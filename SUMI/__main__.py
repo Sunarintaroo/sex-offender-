@@ -83,7 +83,10 @@ PM_START_TEXT = """
 *Hᴇʟʟᴏ {},*
 *I'ᴍ Hɪᴢᴜʀᴜ, I'ᴍ Gᴏᴅᴅᴇss Oғ Tʜᴇ Nᴇᴡ Wᴏʀʟᴅ 
 Aɴᴅ ᴀ Pᴏᴡᴇʀғᴜʟ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
+●❯────────────────❮●
 
+
+╰─────────────╮
 ❍ *Oᴡɴᴇʀ - ERWIN*
 ❍ *Uᴘᴛɪᴍᴇ* - {}
 **ᴄʟɪᴄᴋ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ.**
@@ -98,10 +101,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🐉 Network", url="https://t.me/SurveyCorpsXteam"),
-        InlineKeyboardButton(text="🍿 Chat 🍿", url="https://t.me/WingsOfFreedomm"),
+        InlineKeyboardButton(text="🍿 Chat 🍿", url="https://t.me/bdlalnsbf"),
     ],
     [
-        InlineKeyboardButton(text="💯 Support 💯", url="https://t.me/TSC_BotsSupport"),
+        InlineKeyboardButton(text="💯 Support 💯", url="https://t.me/kanaoXhizuru"),
         InlineKeyboardButton(text="𝗛𝗲𝗹𝗽 🛠", callback_data="help_back"),
     ],
     [
