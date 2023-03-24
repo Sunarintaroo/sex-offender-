@@ -313,7 +313,7 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\n➢ Disaster Level: GOD"
+        text += "\n\n➢ Disaster Level: ERWIN RANDI"
         disaster_level_present = True
     elif user.id in DEV_USERS:
         text += "\n\n➢ Disaster Level: Devoloper"
@@ -469,7 +469,7 @@ def stats(update, context):
             + "\n╘══「 by [{NETWORK_NAME}](https://t.me/{NETWORK_USERNAME}) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Repo", url="t.me/suppporttxd")]]
+                [[InlineKeyboardButton(text="Repo", url="t.me/kanaoXhizuru")]]
             ),
         )
     except BaseException:
@@ -486,7 +486,7 @@ def stats(update, context):
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Repo", url="t.me/suppporttxd")]]
+                [[InlineKeyboardButton(text="Repo", url="t.me/kanaoXhizuru")]]
             ),
         )
 
