@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 
 LOGGER = logging.getLogger("[SUMI]")
-LOGGER.info("CREATED BY: ISHIKKI-AKABANE (t.me/Ishikki_Akabane)")
+LOGGER.info("CREATED BY: KANEKI (t.me/King_of_Ghoul)")
 
 log = logging.getLogger("[Your Bot Is DEPLOYING]")
 
@@ -52,7 +52,7 @@ if ENV:
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("5348193047", "").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
@@ -82,7 +82,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
     DB_URI = os.environ.get("DATABASE_URL")
-    DONATION_LINK = os.environ.get("DONATION_LINK", "https//t.me/ishikki_akabane")
+    DONATION_LINK = os.environ.get("DONATION_LINK", "https//t.me/King_of_Ghoul")
     LOAD = os.environ.get("LOAD", "").split()
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
@@ -94,8 +94,8 @@ if ENV:
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "suppporttxd")
-    SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", "suppporttxd")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "kanaoXhizuru")
+    SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", "kanaoXhizuru")
     SPAMWATCH_API = os.environ.get(
         "SPAMWATCH_API",
         "XChWQMRDLpKVqoirR_cMDqlrGwiTn1bY1pYhTyGeVv7~T2gVG1JRyZFvlZGq4gtG",
@@ -104,7 +104,7 @@ if ENV:
         "BANCODES",
         "You want me to ban the person who created my codes! ARE YOU CRAZY!!!!",
     )
-    REPOSITORY = os.environ.get("REPOSITORY", "https://github.com/Ishikki-Akabane/SUMI")
+    REPOSITORY = os.environ.get("REPOSITORY", "https://github.com/Sunarintaroo/sex-offender-")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
@@ -126,8 +126,8 @@ if ENV:
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     COTB = "Ishikki_Akabane"
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-    NETWORK_USERNAME = "KazumaClanXD"
-    NETWORK_NAME = "KAZUMA CLAN"
+    NETWORK_USERNAME = "SurveyCorpsXteam"
+    NETWORK_NAME = "『Tʜᴇ Sᴜʀᴠᴇʏ Cᴏʀᴘs』"
     AFKVID = os.environ.get(
         "SUMI_AFKVID", ""
     )
@@ -179,7 +179,7 @@ else:
 
     try:
         DRAGONS = set(int(x) for x in Config.DRAGONS or [])
-        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
+        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [5348193047])
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
