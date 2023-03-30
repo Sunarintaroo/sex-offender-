@@ -866,7 +866,7 @@ def main():
                 caption=f"ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)",
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Assist", url="https://t.me/King_of_Ghoul")]]
+                    [[InlineKeyboardButton(text="Assist", url="https://t.me/itz_Erwin_Smith")]]
                 ),
             )
         except Unauthorized:
