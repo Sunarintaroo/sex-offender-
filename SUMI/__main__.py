@@ -1,4 +1,4 @@
-# This code is rewritten by @ishikki_akabane, it was orignally Astrokabot, i editted it and removed few major bugs and improved the code structure and added few extra features to it
+# This code is rewritten by @King_of_Ghoul, it was orignally Astrokabot, i editted it and removed few major bugs and improved the code structure and added few extra features to it
 # Please dont remove this texts
 import importlib
 import random
@@ -321,8 +321,8 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="t.me/TSC_BotsSupport"),
-                        InlineKeyboardButton(text="Updates", url="t.me/TSC_BotsSupport"),
+                        InlineKeyboardButton(text="Support", url="t.me/kanaoXhizuru"),
+                        InlineKeyboardButton(text="Updates", url="t.me/kanaoXhizuru"),
                     ]
                 ]
             ),
